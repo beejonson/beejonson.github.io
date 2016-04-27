@@ -30,11 +30,11 @@
         <section id="main-content">
           <h1>Rename The Extension Of Multiple Files Trough The Console</h1>
           <img src="http://i.imgur.com/PVVFPva.jpg" />
-          <p>Often I have to switch from Linux to Windows and vice versa.</p>
+          <p>Sometimes I have to switch from Linux to Windows and vice versa.</p>
 
-<p>And under both operating systems use the Transmission torrent client. I've set up a Linux boot the torrent files from the Windows directory. The problem is that in such cases Transmission for Linux adds the extension "* .added". </p>
+<p>And under both operating systems I use the Transmission torrent client. I've set up a Linux to boot the torrent files from the Windows directory. The problem is that in such cases Transmission for Linux adds the extension "* .added". </p>
 
-<p>If the files are dozens, one should consider automated renaming in order to save time. I have a few options that do work for remove "*.added" extension:</p>
+<p>If the files are dozens, one should consider automated renaming in order to save time. I have a few options that do work for remove of "*.added" extension:</p>
 
 <p>Pure Bash:</p>
 <pre>for file in * .added; do mv "$ file" "$ {file% .added}"; done;</pre>
